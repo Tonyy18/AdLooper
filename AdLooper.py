@@ -28,7 +28,6 @@ def getAccessToken(code):
 	url = "https://id.twitch.tv/oauth2/token"
 	url += "?client_id=" + client_id
 	url += "&client_secret=" + client_secret
-	url += "&client_secret=" + client_secret
 	url += "&code=" + code
 	url += "&grant_type=authorization_code"
 	url += "&redirect_uri=http://localhost"
